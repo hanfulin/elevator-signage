@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <defs>
+    <style>
+      .blue { fill: #0052b8; }
+      .white { fill: #fff; }
+      .muted { fill: #dceaff; }
+      .title { font-family: "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; font-weight: 700; }
+      .body { font-family: "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; font-weight: 600; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; font-weight: 500; }
+    </style>
+  </defs>
+  <rect width="1200" height="420" rx="0" fill="#0052b8"/>
+  <rect x="28" y="28" width="1144" height="364" rx="0" fill="none" stroke="#ffffff" stroke-width="4" stroke-dasharray="16 12" opacity=".9"/>
+
+  <g transform="translate(72 82)">
+    <circle cx="118" cy="118" r="112" fill="#fff"/>
+    <path d="M79 91c0-24 18-43 42-43s42 19 42 43v33c0 24-18 43-42 43s-42-19-42-43z" fill="#0052b8"/>
+    <rect x="51" y="166" width="134" height="25" rx="12" fill="#0052b8"/>
+    <rect x="43" y="197" width="150" height="18" rx="9" fill="#0052b8"/>
+    <path d="M48 143h47l26 24 25-24h47" fill="none" stroke="#0052b8" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M121 41v76" stroke="#fff" stroke-width="16" stroke-linecap="round"/>
+    <path d="M91 76h60" stroke="#fff" stroke-width="14" stroke-linecap="round"/>
+  </g>
+
+  <text x="342" y="154" class="title white" font-size="78">5 号梯</text>
+  <text x="342" y="252" class="title white" font-size="68">手术专用梯</text>
+  <text x="342" y="326" class="body muted" font-size="36">仅供手术转运使用，患者及家属请勿等候</text>
+</svg>

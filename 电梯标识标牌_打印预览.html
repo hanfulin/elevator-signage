@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>5号梯与6号梯标识标牌打印预览</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #eef2f7;
+      color: #1f2937;
+      font-family: "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif;
+    }
+    main {
+      width: min(1180px, calc(100vw - 40px));
+      margin: 32px auto;
+    }
+    h1 {
+      margin: 0 0 18px;
+      font-size: 24px;
+      font-weight: 700;
+    }
+    .sheet {
+      display: grid;
+      gap: 26px;
+    }
+    .sign {
+      background: white;
+      padding: 18px;
+      border: 1px solid #d8dee8;
+    }
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    @media print {
+      @page { size: A3 landscape; margin: 10mm; }
+      body { background: white; }
+      main { width: auto; margin: 0; }
+      h1 { display: none; }
+      .sheet { gap: 12mm; }
+      .sign {
+        border: 0;
+        padding: 0;
+        break-inside: avoid;
+        page-break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>5号梯与6号梯标识标牌打印预览</h1>
+    <div class="sheet">
+      <section class="sign">
+        <img src="5号梯_手术专用梯.svg" alt="5号梯 手术专用梯">
+      </section>
+      <section class="sign">
+        <img src="6号梯_医务人员专用梯.svg" alt="6号梯 医务人员专用梯">
+      </section>
+    </div>
+  </main>
+</body>
+</html>
