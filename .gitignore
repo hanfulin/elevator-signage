@@ -1,15 +1,15 @@
-# Synology Drive 系統檔
+# Synology Drive 系统文件
 desktop.ini
 *.tmp
 ~$*
 .DS_Store
 
-# 敏感資料
+# 敏感数据
 .env
 *.key
 credentials.*
 
-# Claude Code 本地設定（含 permissions、可能記錄 token，絕不上雲）
+# Claude Code 本地设置（含 permissions、可能记录 token，绝不上云）
 .claude/
 
 # Node.js

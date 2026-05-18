@@ -1,23 +1,23 @@
-# 电梯标识标牌 — 我的班級工具總專案
+# 电梯标识标牌 — 我的班级工具总项目
 
-## 對話開始時請先讀
-進度與最近更動都在 Obsidian：`2ndbrain/电梯标识标牌/工作筆記.md`
+## 对话开始时请先读
+进度与最近变动都在 Obsidian：`2ndbrain/电梯标识标牌/工作笔记.md`
 
 ## 工作模式
-- **加新工具**：對 Claude 說「我想做一個 XXX 工具」→ Claude 會建 `tools/<工具名>/` 子資料夾、引導我跟著影片做
-- **結束工作**：對 Claude 說「**收工**」→ 自動 commit + push + 更新 Obsidian 工作筆記
-- **接續工作**：對 Claude 說「讀工作筆記、告訴我上次做到哪」
+- **加新工具**：对 Claude 说「我想做一个 XXX 工具」→ Claude 会建 `tools/<工具名>/` 子文件夹、引导我跟着视频做
+- **结束工作**：对 Claude 说「**收工**」→ 自动 commit + push + 更新 Obsidian 工作笔记
+- **接续工作**：对 Claude 说「读工作笔记、告诉我上次做到哪」
 
-## 工作桌 + 三個家
-- 📋 SynologyDrive 工作桌：`E:\SynologyDrive\电梯标识标牌\`（自動跨電腦同步）
-- 🐙 GitHub repo：`hanfulin/elevator-signage`（公開，網頁的家）
-- 📘 Obsidian 駕駛艙：`2ndbrain/电梯标识标牌/工作筆記.md`（想法的家）
+## 工作台 + 三个家
+- 📋 SynologyDrive 工作台：`E:\SynologyDrive\电梯标识标牌\`（自动跨电脑同步）
+- 🐙 GitHub repo：`hanfulin/elevator-signage`（公开，网页的家）
+- 📘 Obsidian 驾驶舱：`2ndbrain/电梯标识标牌/工作笔记.md`（想法的家）
 
-## 工具清單
-（之後加新工具時會自動更新）
-- 電梯標識標牌打印預覽（`电梯标识标牌_打印预览.html`）
+## 工具清单
+（之后加新工具时会自动更新）
+- 电梯标识标牌打印预览（`电梯标识标牌_打印预览.html`）
 
-## 工作注意事項
-- 學生資料一律去識別化（只用座號 + 班級代號）
-- commit 訊息要寫清楚做了什麼 + 為什麼
-- 收工前說「收工」讓 Claude 同步三方
+## 工作注意事项
+- 学生数据一律去标识化（只用座号 + 班级代号）
+- commit 信息要写清楚做了什么 + 为什么
+- 收工前说「收工」让 Claude 同步三方
